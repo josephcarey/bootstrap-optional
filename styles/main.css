@@ -1,0 +1,23 @@
+table {
+    /* width: 66%; */
+    /* border-collapse:collapse; */
+    /* border:1px solid black; */
+}
+
+th {
+    text-align: left;
+}
+
+input, button {
+    
+    box-sizing: border-box;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 10rem;
+    margin: 1rem;
+}

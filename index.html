@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Week 1: Car Challenge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="vendors/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="scripts/client.js"></script>
+</head>
+
+<body>
+
+    <div class="container" id="titleDiv">
+        <div class="jumbotron text-center">
+            <h1 class="align-middle">Car Challenge</h1>
+        </div>
+    </div>
+
+    <div class="container" id="mainBody">
+
+        <div class="row justify-content-center">
+
+
+            <div class="container col-12" id="controlDiv">
+
+                <div class="row">
+
+                    <div class="container col-12 text-center">
+                        <h2>Add a New Car</h2>
+                    </div>
+
+                    <div class="container col-6 text-right">
+                        <!-- This still doesn't look as clean as I want, but I think we would need to get into
+                        Forms to make it cleaner so it will have to do for now -->
+                        <span class="align-middle"><label for="nicknameInput">Nickname:</label></span>
+                    </div>
+                    <div class="container col-6">
+                        <input class="form-control" id="nicknameInput" type="text" placeholder="Betsy" value="Betsy" />
+                    </div>
+
+                    <div class="container col-6 text-right">
+                        <span class="align-middle"><label for="yearInput">Year:</label></span>
+                    </div>
+                    <div class="container col-6">
+                        <input class="form-control" id="yearInput" type="number" placeholder="year" value="2013" />
+                    </div>
+
+                    <div class="container col-6 text-right">
+                        <span class="align-middle"><label for="makeInput">Make:</label></span>
+                    </div>
+                    <div class="container col-6">
+                        <input class="form-control" id="makeInput" type="text" placeholder="make" value="Honda" />
+                    </div>
+
+                    <div class="container col-6 text-right">
+                        <span class="align-middle"><label for="modelInput">Model:</label></span>
+                    </div>
+                    <div class="container col-6">
+                        <input class="form-control" id="modelInput" type="text" placeholder="model" value="Fit" />
+                    </div>
+
+                    <div class="container col-6 text-right">
+                        <span class="align-middle"><label for="urlInput">Image URL:</label></span>
+                    </div>
+                    <div class="container col-6">
+                        <input class="form-control" id="urlInput" type="text" placeholder="url" />
+                    </div>
+
+                    <div class="container col-6">
+
+                    </div>
+                    <div class="container col-6">
+                        <button class="btn btn-primary btn-block" id="addCarButton">Add Car</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="container col-12">
+
+                <div class="row">
+
+                    <div class="container col-12 text-center">
+                        <h2>The Garage</h2>
+                        <p>Full disclosure: I can't get going for a spin to work right, and I gave up to spend time with
+                            people.
+                        </p>
+                    </div>
+
+                    <div class="container col-12">
+
+                        <div class="row justify-content-center" id="carTableDiv">
+
+                            <div class="card" style="width: 10rem;">
+                                <img class="card-img-top" src="https://i.kinja-img.com/gawker-media/image/upload/s--LXZY7BhL--/c_scale,f_auto,fl_progressive,q_80,w_800/ky4097sexjpovzej8jpa.jpg"
+                                    alt="Card image caption">
+                                <div class="card-body">
+                                    <h5 class="card-title">Honda</h5>
+                                    <h6 class="card-subtitle text-muted">Civic 2010</h6>
+                                    <p class="card-text">Go for a spin.</p>
+                                    <button class="btn btn-primary" class="deleteMe">Go!</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 10rem;">
+                                <img class="card-img-top" src="https://i.kinja-img.com/gawker-media/image/upload/s--LXZY7BhL--/c_scale,f_auto,fl_progressive,q_80,w_800/ky4097sexjpovzej8jpa.jpg"
+                                    alt="Card image caption">
+                                <div class="card-body">
+                                    <h5 class="card-title">Honda</h5>
+                                    <h6 class="card-subtitle text-muted">Civic 2010</h6>
+                                    <p class="card-text">Go for a spin.</p>
+                                    <button class="btn btn-primary" class="deleteMe">Go!</button>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 10rem;">
+                                <img class="card-img-top" src="https://i.kinja-img.com/gawker-media/image/upload/s--LXZY7BhL--/c_scale,f_auto,fl_progressive,q_80,w_800/ky4097sexjpovzej8jpa.jpg"
+                                    alt="Card image caption">
+                                <div class="card-body">
+                                    <h5 class="card-title">Honda</h5>
+                                    <h6 class="card-subtitle text-muted">Civic 2010</h6>
+                                    <p class="card-text">Go for a spin.</p>
+                                    <button class="btn btn-primary" class="deleteMe">Go!</button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+    <!--End of Main Body Div-->
+
+</body>
+
+</html>
